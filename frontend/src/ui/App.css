@@ -1,0 +1,28 @@
+/* :root {
+    --primary-color: rgb(14, 52, 90);
+    --secondary-color: rgb(245, 245, 245);
+    --on-primary: rgba(14, 52, 90, 0.6);
+  }
+   */
+  html {
+    scroll-behavior: smooth !important;
+  }
+  
+  /* body {
+    color: var(--primary-color);
+  } */
+
+  
+  /* Navigation Bar */
+.navbar-spacing {
+    margin: 0 5rem;
+  }
+
+  #navbuttons {
+    color: var(--primary-color);
+    padding: .5rem;
+  }
+  
+  #navbuttons:hover {
+    color: var(--on-primary);
+  }
