@@ -1,21 +1,17 @@
-import React from "react";
-import "bootstrap/dist/css/bootstrap.css";
-import "./App.css";
-import { Routes, Route, BrowserRouter, } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import 'bootstrap/dist/css/bootstrap.css'
 import { Home } from './Home'
 import { FourOhFour } from './FourOhFour'
-import { Navigation } from "./Navigation";
+import React from 'react'
+import "./App.css"
 
-export function App () {
-  return (
+export const App = () => (
   <>
     <BrowserRouter>
-      <Navigation/>
       <Routes>
-        <Route path='/' component={<Home/>} />
-        <Route path='*' component={<FourOhFour />} />
+        <Route path="/" element={<Home/>}/>
+        <Route path="*" element={<FourOhFour/>}/>
       </Routes>
     </BrowserRouter>
   </>
-  );
-}
+)

@@ -1,46 +1,24 @@
 import React from "react";
-import { Container, Navbar, Nav } from "react-bootstrap";
-import "./App.css";
-import { NavButtons } from "./NavButtons";
+import { Container, Nav, Navbar } from "react-bootstrap";
 
-export function Navigation(){
-    const buttons = [
-        {
-          link: "/#about",
-          type: "About",
-        },
-        {
-          link: "/#Resume",
-          type: "Events",
-        },
-        {
-          link: "/#map",
-          type: "Map",
-        },
-        {
-          link: "/contact",
-          type: "Contact",
-        },
-      ];
-
-     return (
-        <>
-          <Navbar expand="lg">
-            <Container fluid className="navbar-spacing">
-              <Navbar.Brand href="/">
-                <p id="website-icon-upper">GLOBIS</p>
-                <p id="website-icon-lower">BOOKSTORE</p>
-              </Navbar.Brand>
-              <Navbar.Toggle aria-controls="basic-navbar-nav" />
-              <Navbar.Collapse id="basic-navbar-nav">
-                <Nav className="ms-auto">
-                  {buttons.map((button) => (
-                    <NavButtons button={button} key={button.type} />
-                  ))}
-                </Nav>
-              </Navbar.Collapse>
-            </Container>
-          </Navbar>
-        </>
-      );
+export function Navigation() {
+  return (
+    <Navbar bg="white" expand="md">
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="m-auto">
+            <Nav.Link href="/#about">About</Nav.Link>
+          </Nav>
+          <Nav className="m-auto">
+            <Nav.Link href="/#resume">Resume</Nav.Link>
+          </Nav>
+          <Nav className="m-auto">
+            <Nav.Link href="/#map">Map</Nav.Link>
+          </Nav>
+          <Nav className="m-auto">
+            <Nav.Link href="/#contact">Contact</Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+    </Navbar>
+  );
 }
