@@ -1,10 +1,10 @@
 :root {
-  --primary-color: rgb(248,187,215);
+  --primary-color: rgb(248, 187, 215);
   --secondary-color: rgb(255, 255, 255);
-  --on-primary: rgb(248,187,215, 0.6);
+  --on-primary: rgb(248, 187, 215, 0.6);
 }
 
-@import url('https://fonts.googleapis.com/css?family=Spectral');
+@import url("https://fonts.googleapis.com/css?family=Spectral");
 
 html {
   scroll-behavior: smooth !important;
@@ -12,7 +12,7 @@ html {
 
 body {
   /* color: var(--primary-color); */
-  font-family: 'Spectral';
+  font-family: "Spectral";
 }
 
 /* hr {
@@ -26,6 +26,12 @@ body {
   background-color: var(--secondary-color);
 }
 
+#homepage-container {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  padding: 3rem 5rem 3rem 5rem;
+  border: 0.2rem solid rgb(206, 207, 207);
+}
 /* Home Banner */
 
 #home-banner {
@@ -44,18 +50,45 @@ nav-link:hover {
 }
 
 /* About Me */
-#about-me-container { 
+#about-me-container {
   margin-top: 3rem;
   margin-bottom: 3rem;
+  max-width: 70rem;
 }
 
-#profile-image-col {
+#profile-image-homepage-col {
   text-align: center;
 }
 
-#profile-image {
+#profile-image-homepage {
+  justify-content: center;
   width: 17.5rem;
   height: 22.5rem;
   max-width: 100%;
   height: auto;
+  border: 0.5rem solid var(--primary-color);
+}
+
+#resume-container {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  max-width: 85rem;
+}
+
+
+#button-col {
+  text-align: center;
+  padding-top: 3rem;
+}
+#resume-button {
+  background-color: transparent;
+  color: black;
+  border: 0.3rem solid var(--primary-color);
+  padding: 0.5rem 1.5rem;
+}
+
+#resume-button:hover {
+  background-color: var(--primary-color);
+  color: white;
+  transition-duration: 600ms;
 }
