@@ -90,7 +90,7 @@ export const Home = () => {
               <br />
               <h4>Community Engagement Coordinator</h4>
               <p>
-                NMCAN (<i>Albuquerque, NM</i>)<br /> January 2019-June 2021
+                <a href="https://nmcan.org/">NMCAN</a>(<i>Albuquerque, NM</i>)<br /> January 2019-June 2021
               </p>
               <br />
               <p>
