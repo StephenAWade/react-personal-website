@@ -1,5 +1,5 @@
 :root {
-  --primary-color: rgb(0, 150, 149);
+  --primary-color: rgb(58, 124, 166);
   --secondary-color: rgb(255, 255, 255);
   --on-primary: rgb(248, 187, 215, 0.6);
 }
@@ -17,12 +17,8 @@ body {
   line-height: 1.8rem;
 }
 
-/* hr {
-  background-color: var(--primary-color);
-  top: .25rem;
-  height: .25rem;
-  border: none;
-} */
+
+/* Navbar */
 
 .navbar {
   display:flex;
@@ -52,32 +48,31 @@ body {
   padding: 3rem 5rem 3rem 5rem;
   border: 0.2rem solid rgb(206, 207, 207);
 }
+
+
 /* Home Banner */
 
 #home-banner {
-  background-color: var(--secondary-color);
-  color: var(--primary-color);
-  /* margin: 1rem 0rem 1rem 0rem; */
+  background-color: rgb(231,230,228);
+  background-image: 
+    linear-gradient(
+      to right,
+      rgb(231,230,228),
+      var(--primary-color) 65%
+    );
+
+  color: white;
+  padding: 5rem 2rem 5rem 2rem;
+  margin: none;
   text-align: center;
+}
+
+#banner-text-col p {
+  padding-top: 8.5rem;
 }
 
 #home-banner h1 {
   font-size: 5rem;
-}
-
-/* .basic-navbar-nav {
-  max-width: 50%;
-} */
-
-nav-link:hover {
-  color: var(--primary-color);
-}
-
-/* About Me */
-#about-me-container {
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-  max-width: 70rem;
 }
 
 #profile-image-homepage-col {
@@ -86,13 +81,23 @@ nav-link:hover {
 
 #profile-image-homepage {
   justify-content: center;
-  width: 17.5rem;
-  height: 22.5rem;
+  width: 25rem;
+  height: 30rem;
   max-width: 100%;
   height: auto;
   border: 0.5rem solid var(--primary-color);
 }
 
+
+/* About Me */
+#about-me-container {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  max-width: 70rem;
+}
+
+
+/* Resume */
 #resume-container {
   margin-top: 3rem;
   margin-bottom: 3rem;
@@ -115,6 +120,14 @@ nav-link:hover {
   background-color: var(--primary-color);
   color: white;
   transition-duration: 600ms;
+}
+
+#work-logos {
+  align-items: end;
+  width: 15rem;
+  height: 20rem;
+  max-width: 100%;
+  height: auto;
 }
 
 #contact {
