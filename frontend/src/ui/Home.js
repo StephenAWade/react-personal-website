@@ -23,13 +23,13 @@ export const Home = () => {
               />
             </Col>
             <Col md={8}>
-              <p className="mt-5 me-5">
+              <p className="mt-3 me-5">
                 "It has been in some points a singular case," said Holmes,
                 flicking the horse on into a gallop. "I confess that I have been
                 as blind as a mole, but it is better to learn wisdom late than
                 never to learn it at all."
               </p>
-              <p className="mt-5 me-5">
+              <p className="mt-3 me-5">
                 In town the earliest risers were just beginning to look sleepily
                 from their windows as we drove through the streets of the Surrey
                 side. Passing down the Waterloo Bridge Road we crossed over the
@@ -106,7 +106,7 @@ export const Home = () => {
                 </p>
                 <br />
                 <h4>Santa Fe Community College</h4>
-                <p>Certiicate, American Sign Language / Spring 2022</p>
+                <p>Certificate, American Sign Language / Spring 2022</p>
               </Col>
             </Row>
             <Row>
@@ -116,6 +116,15 @@ export const Home = () => {
             </Row>
           </Container>
         </div>
+        <Container>
+          <Row>
+            <Col id="contact">
+            <hr />
+            <p>To get in touch, email kstrickler@hopeworksnm.org</p>
+            <hr />
+            </Col>
+          </Row>
+        </Container>
 
         {/* <MapFunction/> */}
       </Container>
