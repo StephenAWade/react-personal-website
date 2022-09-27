@@ -17,12 +17,15 @@ body {
   line-height: 1.8rem;
 }
 
+#section-title {
+  padding-bottom: 3rem;
+}
 
 /* Navbar */
 
 .navbar {
-  display:flex;
-  flex-direction:column;
+  display: flex;
+  flex-direction: column;
 }
 
 .nav-link {
@@ -42,6 +45,8 @@ body {
   background-color: var(--secondary-color);
 }
 
+/* Home Banner */
+
 #homepage-container {
   margin-top: 5rem;
   margin-bottom: 5rem;
@@ -49,17 +54,13 @@ body {
   border: 0.2rem solid rgb(206, 207, 207);
 }
 
-
-/* Home Banner */
-
 #home-banner {
-  background-color: rgb(231,230,228);
-  background-image: 
-    linear-gradient(
-      to right,
-      rgb(231,230,228),
-      var(--primary-color) 65%
-    );
+  background-color: rgb(202, 180, 156);
+  background-image: linear-gradient(
+    to right,
+    rgb(202, 180, 156),
+    var(--primary-color) 65%
+  );
 
   color: white;
   padding: 5rem 2rem 5rem 2rem;
@@ -88,14 +89,12 @@ body {
   border: 0.5rem solid var(--primary-color);
 }
 
-
 /* About Me */
 #about-me-container {
   margin-top: 3rem;
   margin-bottom: 3rem;
   max-width: 70rem;
 }
-
 
 /* Resume */
 #resume-container {
@@ -130,6 +129,92 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+#food-project-container {
+  padding: 5rem 5rem 5rem 5rem;
+  background-color: var(--primary-color);
+  background-image: linear-gradient(
+    to right,
+    var(--primary-color),
+    rgb(202, 180, 156) 95%
+  );
+  color: white;
+}
+
+#food-project-container h3 {
+  padding-bottom: 3rem;
+}
+
+#donate-button-col {
+  text-align: center;
+  padding-top: 5rem;
+}
+
+#food-project-video {
+  width: 33rem;
+  height: 18rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#donate-button {
+  background-color: var(--primary-color);
+  color: white;
+  border: 0.3rem solid var(--primary-color);
+  padding: 0.2rem 1.2rem;
+  margin-top: 1rem;
+}
+
+#donate-button:hover {
+  background-color: transparent;
+  color: black;
+  transition-duration: 600ms;
+}
+
+#laundry-love-container {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  border: 0.5rem solid var(--primary-color);
+  padding: 5rem;
+  background: white;
+  color: black;
+}
+
+#washing-machine-image {
+  width: 23rem;
+  height: 30rem;
+  max-width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#laundry-love-logo {
+  padding-top: 3rem;
+  width: 25rem;
+  height: 30rem;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#placeholderMap {
+  width: 50rem;
+  height: 55rem;
+  max-width: 100%;
+  height: auto;
+  /* display: block;
+  margin-left: auto;
+  margin-right: auto; */
+}
+
+#education-container {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
 }
 
 #contact {
