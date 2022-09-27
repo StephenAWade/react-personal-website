@@ -86,7 +86,10 @@ export const Home = () => {
             </Col>
 
             <Col md={6}>
-              <Image fluid id="work-logos" src={nmcanLogo} alt="NMCAN logo" />
+              <Image fluid 
+              id="work-logos" 
+              src={nmcanLogo} 
+              alt="NMCAN logo" />
             </Col>
             <Col md={6}>
               <h4>Community Engagement Coordinator</h4>
@@ -285,7 +288,7 @@ export const Home = () => {
         <Container id="education-container">
           <Row>
             <Col md={12} className="text-center">
-              <h3>Education</h3>
+              <h1>Education</h1>
             </Col>
           </Row>
           <Row>
@@ -310,9 +313,14 @@ export const Home = () => {
           </Row>
         </Container>
       </div>
-      <Container>
+      <Container id="contact-container" className="text-center">
         <Row>
-          <Col id="contact">
+          <Col md={12}>
+          <h1>Contact</h1>
+          </Col>
+        </Row>
+        <Row>
+          <Col id="contact" >
             <hr />
             <p>To get in touch, email kstrickler@hopeworksnm.org</p>
             <hr />
