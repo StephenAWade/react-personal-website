@@ -123,11 +123,13 @@ body {
 }
 
 #work-logos {
-  align-items: end;
   width: 15rem;
   height: 20rem;
   max-width: 100%;
   height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #contact {
