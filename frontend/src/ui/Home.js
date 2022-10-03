@@ -11,7 +11,7 @@ import riograndeFoodProject from "./icons/rio-grande-food-project.jpeg";
 import washingMachine from "./icons/washing-machine.jpg";
 import laundryLoveLogo from "./icons/laundry-love-logo-2.png";
 import worldraceLogo from "./icons/world-race-logo-2.png";
-import placeholderMap from "./icons/placeholder-map.jpeg";
+import kaylaWorldRace from "./icons/kayla-world-race.jpg";
 
 export const Home = () => {
   return (
@@ -86,10 +86,7 @@ export const Home = () => {
             </Col>
 
             <Col md={6}>
-              <Image fluid 
-              id="work-logos" 
-              src={nmcanLogo} 
-              alt="NMCAN logo" />
+              <Image fluid id="work-logos" src={nmcanLogo} alt="NMCAN logo" />
             </Col>
             <Col md={6}>
               <h4>Community Engagement Coordinator</h4>
@@ -134,20 +131,15 @@ export const Home = () => {
               <br />
             </Col>
             <Col md={6}>
-              <Image
-                fluid
-                id="uw-logo"
-                src={unitedWay}
-                alt="United Way Logo"
-              />
+              <Image fluid id="uw-logo" src={unitedWay} alt="United Way Logo" />
             </Col>
             <Col md={6}>
               <h4>Community Relations Intern</h4>
               <p>
                 <a href="https://www.unitedwaydenton.org/">
-                  United Way Denton County 
+                  United Way Denton County
                 </a>
-                 (<i>Denton, TX</i>)<br /> Fall 2014
+                (<i>Denton, TX</i>)<br /> Fall 2014
               </p>
               <br />
               <p>
@@ -267,43 +259,44 @@ export const Home = () => {
                 alt="Washing Machine"
               />
             </Col>
-            <Col md={6}>
+            <Col md={8}>
               <Image
                 fluid
-                id="placeholderMap"
-                src={placeholderMap}
+                id="world-race-photo"
+                src={kaylaWorldRace}
                 alt="Placeholder Map"
               />
-              <p>
-                Worked extensively with locally-based NGOs for one month each in
-                India, Nepal, Thailand, Cambodia, Vietnam, Ethiopia, Rwanda,
-                Bolivia, Peru, Ecuador, and Colombia. Emphasized sustainability
-                regarding work done with people and communities living below the
-                global poverty line.
-              </p>
             </Col>
           </Row>
         </Container>
 
-        <Container id="education-container">
+        <Container fluid id="education-container">
           <Row>
             <Col md={12} className="text-center">
               <h1>Education</h1>
             </Col>
           </Row>
           <Row>
-            <Col md={6} className="text-center">
-              <h4>University of New Mexico</h4>
-              <p>
-                Bachelor of Arts <br /> Communication, Religious Studies /
-                Spring 2017
-              </p>
+            <Col md={6} id="unm-background" className="text-center">
+              <Container id="unm-text">
+                <Container className="bg-white p-3">
+                  <h2>University of New Mexico</h2>
+                  <h4>
+                    Bachelor of Arts <br /> Communication, Religious Studies /
+                    Spring 2017
+                  </h4>
+                </Container>
+              </Container>
             </Col>
-            <Col md={6} className="text-center">
-              <h4>Santa Fe Community College</h4>
-              <p>
-                Certificate <br /> American Sign Language / Spring 2022
-              </p>
+            <Col md={6} id="sfcc-background" className="text-center">
+              <Container id="sfcc-text">
+                <Container className="bg-white p-3">
+                <h2>Santa Fe Community College</h2>
+                <h4>
+                  Certificate <br /> American Sign Language / Spring 2022
+                </h4>
+                </Container>
+              </Container>
             </Col>
           </Row>
           <Row>
@@ -316,11 +309,11 @@ export const Home = () => {
       <Container id="contact-container" className="text-center">
         <Row>
           <Col md={12}>
-          <h1>Contact</h1>
+            <h1>Contact</h1>
           </Col>
         </Row>
         <Row>
-          <Col id="contact" >
+          <Col id="contact">
             <hr />
             <p>To get in touch, email kstrickler@hopeworksnm.org</p>
             <hr />

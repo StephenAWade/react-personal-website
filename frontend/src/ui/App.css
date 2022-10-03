@@ -222,20 +222,52 @@ body {
   margin-right: auto;
 }
 
-#placeholderMap {
+#world-race-photo {
   width: 50rem;
   height: 55rem;
   max-width: 100%;
   height: auto;
-  /* display: block;
+  display: block;
   margin-left: auto;
-  margin-right: auto; */
+  margin-right: auto;
 }
 
 #education-container {
   margin-top: 5rem;
   margin-bottom: 5rem;
+
 }
+
+#unm-background {
+  background: url(./icons/unm-logo.gif) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 60rem;
+  height: 40rem;
+}
+
+#unm-text {
+  padding-top: 15rem;
+  padding-bottom:15rem;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+#sfcc-background {
+  background: url(./icons/sfcc-logo.png) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 45rem;
+  height: 40rem;
+}
+
+#sfcc-text {
+  padding-top: 15rem;
+  padding-bottom:20rem;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
 
 #contact-container {
   margin-top: 5rem;
