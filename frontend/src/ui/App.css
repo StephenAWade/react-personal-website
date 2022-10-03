@@ -131,6 +131,26 @@ body {
   margin-right: auto;
 }
 
+#ga-logo {
+  width: 10rem;
+  height: 15rem;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#uw-logo {
+  width: 11rem;
+  height: 16rem;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 #food-project-container {
   padding: 5rem 5rem 5rem 5rem;
   background-color: var(--primary-color);

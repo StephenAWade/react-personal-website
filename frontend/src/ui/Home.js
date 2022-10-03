@@ -5,7 +5,7 @@ import { Navigation } from "./Navigation";
 import profileImage from "./icons/profile-image.jpeg";
 import hopeworksLogo from "./icons/hopeworks-logo.png";
 import nmcanLogo from "./icons/nmcan-logo.png";
-import goldenApple from "./icons/golden-apple-logo.png";
+import goldenApple from "./icons/golden-apple-logo-2.png";
 import unitedWay from "./icons/united-way-logo.png";
 import riograndeFoodProject from "./icons/rio-grande-food-project.jpeg";
 import washingMachine from "./icons/washing-machine.jpg";
@@ -56,7 +56,7 @@ export const Home = () => {
         <Container id="resume-container">
           <Row>
             <Col md={12} id="section-title" className="text-center">
-              <h1>My journey</h1>
+              <h1>My Journey</h1>
             </Col>
           </Row>
           <Row>
@@ -71,7 +71,7 @@ export const Home = () => {
             <Col>
               <h4>Senior Development and Communications Officer</h4>
               <p>
-                <a href="https://www.hopeworksnm.org/">Hopeworks</a> (
+                <a href="https://www.hopeworksnm.org/">HopeWorks</a> (
                 <i>Albuquerque, NM</i>)<br /> July 2021-present
               </p>
               <br />
@@ -111,7 +111,7 @@ export const Home = () => {
             <Col md={6}>
               <Image
                 fluid
-                id="work-logos"
+                id="ga-logo"
                 src={goldenApple}
                 alt="Golden Apple Logo"
               />
@@ -136,7 +136,7 @@ export const Home = () => {
             <Col md={6}>
               <Image
                 fluid
-                id="work-logos"
+                id="uw-logo"
                 src={unitedWay}
                 alt="United Way Logo"
               />
@@ -169,7 +169,7 @@ export const Home = () => {
           </Row>
           <Row>
             <Col md={7}>
-              <h4>Director</h4>
+              <h4>Board Secretary (pending)</h4>
               <p>September 2022-present</p>
               <hr />
               <h4>Board Member</h4>
@@ -196,7 +196,7 @@ export const Home = () => {
                 title="YouTube video player"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
+                allowfullscreen="true"
               ></iframe>
               <br />
               <button id="donate-button" className="text-center">
