@@ -21,6 +21,21 @@ body {
   padding-bottom: 3rem;
 }
 
+#map-background {
+
+  background: url(./icons/krzysztof-hepner-TH7TW20de9s-unsplash.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: 130rem;
+  height: 15rem;
+  margin: 0;
+  padding: 0;
+  opacity: 40%;
+  background-color: rgba(58, 124, 166, .5);
+  background-blend-mode: multiply;
+}
+
 /* Navbar */
 
 .navbar {
@@ -151,6 +166,8 @@ body {
   margin-right: auto;
 }
 
+/* Rio Grande Food Project */
+
 #food-project-container {
   padding: 5rem 5rem 5rem 5rem;
   background-color: var(--primary-color);
@@ -193,6 +210,9 @@ body {
   transition-duration: 600ms;
 }
 
+
+/* Laundry Love */
+
 #laundry-love-container {
   margin-top: 5rem;
   margin-bottom: 5rem;
@@ -222,15 +242,21 @@ body {
   margin-right: auto;
 }
 
+
+/* World Race */
+
 #world-race-photo {
-  width: 50rem;
-  height: 55rem;
+  width: 40rem;
+  height: 45rem;
   max-width: 100%;
   height: auto;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
+
+
+/* Education */
 
 #education-container {
   margin-top: 5rem;

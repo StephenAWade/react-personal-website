@@ -1,7 +1,5 @@
 import React from "react";
 import { Col, Container, Image, Row } from "react-bootstrap";
-import { Navigation } from "./Navigation";
-// import MapFunction from "./Map";
 import profileImage from "./icons/profile-image.jpeg";
 import hopeworksLogo from "./icons/hopeworks-logo.png";
 import nmcanLogo from "./icons/nmcan-logo.png";
@@ -12,6 +10,9 @@ import washingMachine from "./icons/washing-machine.jpg";
 import laundryLoveLogo from "./icons/laundry-love-logo-2.png";
 import worldraceLogo from "./icons/world-race-logo-2.png";
 import kaylaWorldRace from "./icons/kayla-world-race.jpg";
+
+// import { Navigation } from "./Navigation";
+// // import MapFunction from "./Map";
 
 export const Home = () => {
   return (
@@ -39,19 +40,22 @@ export const Home = () => {
         <Row>
           <Col md={12}>
             <p className="mt-3 me-5">
-              In town the earliest risers were just beginning to look sleepily
-              from their windows as we drove through the streets of the Surrey
-              side. Passing down the Waterloo Bridge Road we crossed over the
-              river, and dashing up Wellington Street wheeled sharply to the
-              right and found ourselves in Bow Street. Sherlock Holmes was well
-              known to the force, and the two constables at the door saluted
-              him. One of them held the horse's head while the other led us in.
+              Inspired by the unwavering ethics, compassion, and patient,
+              thoughtful work of my tias and abuelas, on whose sunburnt
+              shoulders I now stand, I have dedicated my career to supporting
+              improvement of defective social, political, and economic systems.
+              I may be only one person, but I am most certainly not alone.
             </p>
           </Col>
         </Row>
       </Container>
 
-      <hr />
+      <Container
+        fluid
+        id="map-background"
+        className="background-tint"
+      ></Container>
+
       <div id="resume">
         <Container id="resume-container">
           <Row>
@@ -151,6 +155,12 @@ export const Home = () => {
           </Row>
         </Container>
 
+        <Container
+          fluid
+          id="map-background"
+          className="background-tint"
+        ></Container>
+
         <Container fluid id="food-project-container">
           <Row>
             <Col md={12} id="section-title" className="text-center">
@@ -168,11 +178,14 @@ export const Home = () => {
               <p>January 2021-September 2022</p>
               <br />
               <p>
-                Worked extensively with locally-based NGOs for one month each in
-                India, Nepal, Thailand, Cambodia, Vietnam, Ethiopia, Rwanda,
-                Bolivia, Peru, Ecuador, and Colombia. Emphasized sustainability
-                regarding work done with people and communities living below the
-                global poverty line.
+                As a Board Director and member of the Development Committee, I
+                support and help steer the nonprofit’s fundraising, policy
+                development, and vision of a community where everyone has
+                plentiful nutritious food. RGFP is located in a food desert and
+                extremely high poverty area. My goals include amplifying client
+                voice and sharing power with individuals and families closest to
+                the problem as RGFP builds a new client-choice food pantry and
+                takes strategic risks to address food insecurity at its roots.
               </p>
               <Image
                 fluid
@@ -191,9 +204,11 @@ export const Home = () => {
                 allowfullscreen="true"
               ></iframe>
               <br />
-              <button id="donate-button" className="text-center">
-                Donate Today
-              </button>
+              <a href="https://www.rgfp.org/give/">
+                <button id="donate-button" className="text-center">
+                  Donate Today
+                </button>
+              </a>
             </Col>
           </Row>
           <Container id="laundry-love-container">
@@ -210,11 +225,14 @@ export const Home = () => {
                 <p>June 2021-present</p>
                 <br />
                 <p>
-                  Worked extensively with locally-based NGOs for one month each
-                  in India, Nepal, Thailand, Cambodia, Vietnam, Ethiopia,
-                  Rwanda, Bolivia, Peru, Ecuador, and Colombia. Emphasized
-                  sustainability regarding work done with people and communities
-                  living below the global poverty line.
+                  A true passion project, I co-lead Albuquerque’s chapter of
+                  Laundry Love, a national organization that boasts “Love.
+                  Dignity. Detergent.” Laundry Love ABQ washes the clothes and
+                  linens of low-income households without judgement through
+                  providing free laundry at local laundromats with coins,
+                  laundry supplies, additional resources, and community. My role
+                  includes crisis management and regular Spanish interpreting
+                  for our largely monolingual Spanish-speaking clientele.
                 </p>
                 <Image
                   fluid
@@ -270,6 +288,12 @@ export const Home = () => {
           </Row>
         </Container>
 
+        <Container
+          fluid
+          id="map-background"
+          className="background-tint"
+        ></Container>
+
         <Container fluid id="education-container">
           <Row>
             <Col md={12} className="text-center">
@@ -291,17 +315,22 @@ export const Home = () => {
             <Col md={6} id="sfcc-background" className="text-center">
               <Container id="sfcc-text">
                 <Container className="bg-white p-3">
-                <h2>Santa Fe Community College</h2>
-                <h4>
-                  Certificate <br /> American Sign Language / Spring 2022
-                </h4>
+                  <h2>Santa Fe Community College</h2>
+                  <h4>
+                    Certificate <br /> American Sign Language / Spring 2022
+                  </h4>
                 </Container>
               </Container>
             </Col>
           </Row>
           <Row>
             <Col md={12} id="button-col">
-              <button id="resume-button">Download Full Resume</button>
+              <a
+                href="https://1drv.ms/b/s!AmI02yM5rJcaknIUJjOIchWi7gcW?e=zH2MIc"
+                arget="_blank"
+              >
+                <button id="resume-button">Download Full Resume</button>
+              </a>
             </Col>
           </Row>
         </Container>
@@ -320,7 +349,6 @@ export const Home = () => {
           </Col>
         </Row>
       </Container>
-
       {/* <MapFunction/> */}
     </>
   );
