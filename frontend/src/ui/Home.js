@@ -19,6 +19,7 @@ export const Home = () => {
     <>
       <Container fluid id="home-banner">
         <Row>
+                {/* <Navigation /> */}
           <Col md={5} id="profile-image-col">
             <Image
               fluid
@@ -28,20 +29,13 @@ export const Home = () => {
             />
           </Col>
           <Col md={7} id="banner-text-col">
-            <p>
+            <p className="mt-5">
               <i>Hi, I'm</i>
             </p>
             <h1>Kayla Strickler</h1>
-          </Col>
-        </Row>
-      </Container>
-      {/* <Navigation /> */}
-      <Container id="about-me-container">
-        <Row>
-          <Col md={12}>
-            <p className="mt-3 me-5">
+            <p className="mt-5">
               Inspired by the unwavering ethics, compassion, and patient,
-              thoughtful work of my tias and abuelas, on whose sunburnt
+              thoughtful work of my tias and abuelas on whose sunburnt
               shoulders I now stand, I have dedicated my career to supporting
               improvement of defective social, political, and economic systems.
               I may be only one person, but I am most certainly not alone.
@@ -49,6 +43,13 @@ export const Home = () => {
           </Col>
         </Row>
       </Container>
+      {/* <Container id="about-me-container">
+        <Row>
+          <Col md={12}>
+            
+          </Col>
+        </Row>
+      </Container> */}
 
       <Container
         fluid
@@ -147,7 +148,7 @@ export const Home = () => {
               </p>
               <br />
               <p>
-                Maintained comprehensive database of community partner
+                Maintained a comprehensive database of community partner
                 organizations and increased awareness in the community of United
                 Way’s services and opportunities
               </p>
@@ -170,13 +171,17 @@ export const Home = () => {
             </Col>
           </Row>
           <Row>
-            <Col md={7}>
-              <h4>Board Secretary (pending)</h4>
+            <Col md={12}>
+            <h4>Board Secretary (pending)</h4>
               <p>September 2022-present</p>
               <hr />
               <h4>Board Member</h4>
               <p>January 2021-September 2022</p>
-              <br />
+            </Col>
+          </Row>
+          <br />
+          <Row>
+            <Col md={4}>
               <p>
                 As a Board Director and member of the Development Committee, I
                 support and help steer the nonprofit’s fundraising, policy
@@ -187,7 +192,9 @@ export const Home = () => {
                 the problem as RGFP builds a new client-choice food pantry and
                 takes strategic risks to address food insecurity at its roots.
               </p>
-              <Image
+            </Col>
+            <Col md={3}>
+            <Image
                 fluid
                 id="work-logos"
                 src={riograndeFoodProject}
