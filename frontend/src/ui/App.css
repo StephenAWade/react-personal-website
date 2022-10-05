@@ -22,8 +22,8 @@ body {
 }
 
 #map-background {
-
-  background: url(./icons/krzysztof-hepner-TH7TW20de9s-unsplash.jpg) no-repeat center center fixed;
+  background: url(./icons/krzysztof-hepner-TH7TW20de9s-unsplash.jpg) no-repeat
+    center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -32,7 +32,7 @@ body {
   margin: 0;
   padding: 0;
   opacity: 40%;
-  background-color: rgba(58, 124, 166, .5);
+  background-color: rgba(58, 124, 166, 0.5);
   background-blend-mode: multiply;
 }
 
@@ -210,7 +210,6 @@ body {
   transition-duration: 600ms;
 }
 
-
 /* Laundry Love */
 
 #laundry-love-container {
@@ -242,7 +241,6 @@ body {
   margin-right: auto;
 }
 
-
 /* World Race */
 
 #world-race-photo {
@@ -255,13 +253,11 @@ body {
   margin-right: auto;
 }
 
-
 /* Education */
 
 #education-container {
   margin-top: 5rem;
   margin-bottom: 5rem;
-
 }
 
 #unm-background {
@@ -275,7 +271,7 @@ body {
 
 #unm-text {
   padding-top: 15rem;
-  padding-bottom:15rem;
+  padding-bottom: 15rem;
   background-color: rgba(255, 255, 255, 0.8);
 }
 
@@ -290,10 +286,9 @@ body {
 
 #sfcc-text {
   padding-top: 15rem;
-  padding-bottom:20rem;
+  padding-bottom: 20rem;
   background-color: rgba(255, 255, 255, 0.7);
 }
-
 
 #contact-container {
   margin-top: 5rem;
@@ -302,4 +297,37 @@ body {
 
 #contact {
   text-align: center;
+}
+
+/* Mobile Responsive Media Queries */
+@media (max-width: 978px) {
+  #map-background {
+    height: 8rem;
+  }
+
+  #work-logos,
+  #ga-logo,
+  #uw-logo {
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+  }
+
+  #food-project-container {
+    padding: 4rem 2rem 4rem 2rem;
+  }
+
+  #food-project-video {
+    width: 25rem;
+    height: 10rem;
+  }
+
+  #laundry-love-container {
+    padding: 4rem 1rem 4rem 1rem;
+  }
+
+  #washing-machine-image {
+    width: 13rem;
+    height: 20rem;
+    margin-top: 2rem;
+  }
 }
