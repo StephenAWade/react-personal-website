@@ -1,0 +1,18 @@
+version: "3"
+
+services:
+  app:
+    build: ../frontend
+    depends_on:
+      - node
+    #    For deploying to server use ports: - 80:80
+    ports:
+      - 80:80
+      - 443:443
+#     volumes:
+#       - ./dh-param/dhparam-2048.pem:/etc/ssl/certs/dhparam-2048.pem
+#       - /docker-volumes/pothole-finder/etc/letsencrypt/live/potholes.icu/fullchain.pem:/etc/letsencrypt/live/potholes.icu/fullchain.pem
+#       - /docker-volumes/pothole-finder/etc/letsencrypt/live/potholes.icu/privkey.pem:/etc/letsencrypt/live/potholes.icu/privkey.pem
+# volumes:
+#   compose-lesson:
+#     driver: local
