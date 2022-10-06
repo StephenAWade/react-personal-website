@@ -19,7 +19,7 @@ export const Home = () => {
     <>
       <Container fluid id="home-banner">
         <Row>
-          {/* <Navigation /> */}
+                {/* <Navigation /> */}
           <Col md={5} id="profile-image-col">
             <Image
               fluid
@@ -35,10 +35,10 @@ export const Home = () => {
             <h1>Kayla Strickler</h1>
             <p className="mt-5">
               Inspired by the unwavering ethics, compassion, and patient,
-              thoughtful work of my tias and abuelas on whose sunburnt shoulders
-              I now stand, I have dedicated my career to supporting improvement
-              of defective social, political, and economic systems. I may be
-              only one person, but I am most certainly not alone.
+              thoughtful work of my tias and abuelas on whose sunburnt
+              shoulders I now stand, I have dedicated my career to supporting
+              improvement of defective social, political, and economic systems.
+              I may be only one person, but I am most certainly not alone.
             </p>
           </Col>
         </Row>
@@ -172,7 +172,7 @@ export const Home = () => {
           </Row>
           <Row>
             <Col md={12}>
-              <h4>Board Secretary (pending)</h4>
+            <h4>Board Secretary (pending)</h4>
               <p>September 2022-present</p>
               <hr />
               <h4>Board Member</h4>
@@ -194,7 +194,7 @@ export const Home = () => {
               </p>
             </Col>
             <Col md={3}>
-              <Image
+            <Image
                 fluid
                 id="work-logos"
                 src={riograndeFoodProject}
@@ -202,16 +202,14 @@ export const Home = () => {
               />
             </Col>
             <Col md={5} id="donate-button-col">
-              <Container fluid>
-                <iframe
-                  id="food-project-video"
-                  src="https://www.youtube.com/embed/vXHT8Fxl780"
-                  title="YouTube video player"
-                  frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen="true"
-                ></iframe>
-              </Container>
+              <iframe
+                id="food-project-video"
+                src="https://www.youtube.com/embed/vXHT8Fxl780"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen="true"
+              ></iframe>
               <br />
               <a href="https://www.rgfp.org/give/">
                 <button id="donate-button" className="text-center">
