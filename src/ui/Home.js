@@ -43,13 +43,6 @@ export const Home = () => {
           </Col>
         </Row>
       </Container>
-      {/* <Container id="about-me-container">
-        <Row>
-          <Col md={12}>
-            
-          </Col>
-        </Row>
-      </Container> */}
 
       <Container
         fluid
@@ -248,7 +241,7 @@ export const Home = () => {
                   alt="Rio Grande Food Project"
                 />
               </Col>
-              <Col md={5}>
+              <Col md={5} id="washing-machine-image-col">
                 <Image
                   fluid
                   id="washing-machine-image"
