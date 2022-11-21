@@ -34,11 +34,7 @@ export const Home = () => {
             </p>
             <h1>Kayla Strickler</h1>
             <p className="mt-5">
-              Inspired by the unwavering ethics, compassion, and patient,
-              thoughtful work of my tias and abuelas on whose sunburnt
-              shoulders I now stand, I have dedicated my career to supporting
-              improvement of defective social, political, and economic systems.
-              I may be only one person, but I am most certainly not alone.
+             Inspired by the grit, sacrifice, and compassion of my ancestors whose shoulders I now stand, my career is dedicated to systemic change that elevates and leverages the voices and lived experience of people at the outermost margins to create a lasting and more equitable reality.
             </p>
           </Col>
         </Row>
@@ -167,8 +163,8 @@ export const Home = () => {
           </Row>
           <Row>
             <Col md={12}>
-            <h4>Board Secretary (pending)</h4>
-              <p>September 2022-present</p>
+            <h4>Board Secretary</h4>
+              <p>October 2022-present</p>
               <hr />
               <h4>Board Member</h4>
               <p>January 2021-September 2022</p>
@@ -178,12 +174,13 @@ export const Home = () => {
           <Row>
             <Col md={4}>
               <p>
-                As a Board Director and member of the Development Committee, I
-                support and help steer the nonprofit’s fundraising, policy
-                development, and vision of a community where everyone has
-                plentiful nutritious food. RGFP is located in a food desert and
-                extremely high poverty area. My goals include amplifying client
-                voice and sharing power with individuals and families closest to
+                Serving on the Rio Grande Food Project Board of Directors 
+                (including the Development and Executive Committees), I am 
+                one part of a powerful team that helps support and steer the 
+                nonprofit’s fundraising, policy development, and vision of a 
+                community where everyone has plentiful nutritious food. RGFP 
+                is located in a food desert and high poverty area. My goals in
+                supporting RGFP include sharing power with individuals and families closest to
                 the problem as RGFP builds a new client-choice food pantry and
                 takes strategic risks to address food insecurity at its roots.
               </p>
@@ -223,7 +220,7 @@ export const Home = () => {
             </Row>
             <Row>
               <Col md={7}>
-                <h4>Co-Lead</h4>
+                <h4>Core Volunteer</h4>
                 <p>June 2021-present</p>
                 <br />
                 <p>
