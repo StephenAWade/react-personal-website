@@ -78,7 +78,13 @@ export const Home = () => {
                 applications, facilitating program collaboration and data
                 collection, and tracking and meeting all reporting requirements
                 for both new and known government, corporate, and foundation
-                funding leads.
+                funding.
+              </p>
+              <br />
+              <p>
+              Contributes as a member of the Development team to the 
+                communication and engagement strategies of the agency, including 
+                public education about homelessness.
               </p>
               <br />
             </Col>
@@ -89,7 +95,8 @@ export const Home = () => {
             <Col md={6}>
               <h4>Community Engagement Coordinator</h4>
               <p>
-                <a href="https://nmcan.org/">NMCAN</a>(<i>Albuquerque, NM</i>)
+                <a href="https://nmcan.org/">NMCAN</a> (
+                  <i>Albuquerque, NM</i>)
                 <br /> January 2019-June 2021
               </p>
               <br />
@@ -114,17 +121,16 @@ export const Home = () => {
             <Col md={6}>
               <h4>Communications Specialist</h4>
               <p>
-                <a href="https://goldenapplenm.org/">
-                  Golden Apple Foundation of New Mexico
-                </a>
-                (<i>Albuquerque, NM</i>)<br /> Fall 2015-Fall 2016
+                <a href="https://goldenapplenm.org/">Golden Apple Foundation of New Mexico</a> (
+                  <i>Albuquerque, NM</i>)<br /> Fall 2015-Fall 2016
               </p>
               <br />
               <p>
-                Wrote and distributed poignant press releases to all major and
+                Facilitated organization communications and events, wrote and distributed 
+                poignant press releases to all major and
                 minor state publications, and expanded organization’s online
                 presence on social media (with Facebook following surpassing a
-                growth of 400%)
+                growth of 400%).
               </p>
               <br />
             </Col>
@@ -134,16 +140,12 @@ export const Home = () => {
             <Col md={6}>
               <h4>Community Relations Intern</h4>
               <p>
-                <a href="https://www.unitedwaydenton.org/">
-                  United Way Denton County
-                </a>
-                (<i>Denton, TX</i>)<br /> Fall 2014
+                <a href="https://www.unitedwaydenton.org/">United Way Denton County</a> (
+                  <i>Denton, TX</i>)<br /> Fall 2014
               </p>
               <br />
               <p>
-                Maintained a comprehensive database of community partner
-                organizations and increased awareness in the community of United
-                Way’s services and opportunities
+                Facilitated community involvement through philanthropic mission connections and public relations and built and maintained comprehensive database of faith-based community partner organizations.
               </p>
             </Col>
           </Row>
