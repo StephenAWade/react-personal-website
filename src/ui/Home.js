@@ -322,7 +322,8 @@ export const Home = () => {
               </Container>
             </Col>
           </Row>
-          <Row>
+        </Container>
+        <Row>
             <Col md={12} id="button-col">
               <a
                 href="https://1drv.ms/b/s!AmI02yM5rJcaknIzcP16rVSOvHty?e=nEzHXF"
@@ -332,7 +333,6 @@ export const Home = () => {
               </a>
             </Col>
           </Row>
-        </Container>
       </div>
       <Container id="contact-container" className="text-center">
         <Row>
