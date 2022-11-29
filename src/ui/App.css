@@ -6,8 +6,16 @@
 
 @import url("https://fonts.googleapis.com/css?family=Spectral");
 
+html, body {
+  overflow-x: hidden;
+}
+body {
+  position: relative
+}
+
 html {
   scroll-behavior: smooth !important;
+  overflow-x: hidden;
 }
 
 body {
