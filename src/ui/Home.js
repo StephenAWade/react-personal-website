@@ -258,7 +258,7 @@ export const Home = () => {
             </Col>
           </Row>
           <Row>
-            <Col md={4}>
+            <Col md={6} id="wr-text">
               <h4>International Humanitarian Aid Volunteer</h4>
               <p>June 2017-June 2018</p>
               <br />
@@ -271,17 +271,17 @@ export const Home = () => {
               </p>
               <Image
                 fluid
-                id="work-logos"
+                id="wr-logo"
                 src={worldraceLogo}
                 alt="Washing Machine"
               />
             </Col>
-            <Col md={8}>
+            <Col md={6}>
               <Image
                 fluid
                 id="world-race-photo"
                 src={kaylaWorldRace}
-                alt="Placeholder Map"
+                alt="India Selfie"
               />
             </Col>
           </Row>

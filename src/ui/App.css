@@ -167,6 +167,17 @@ body {
   margin-right: auto;
 }
 
+#wr-logo {
+  width: 25rem;
+  height: 30rem;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 4rem;
+}
+
 /* Rio Grande Food Project */
 
 #food-project-container {
@@ -263,6 +274,10 @@ body {
 
 /* World Race */
 
+#wr-text{
+  padding-left: 4rem;
+}
+
 #world-race-photo {
   width: 40rem;
   height: 45rem;
@@ -276,6 +291,7 @@ body {
 /* Education */
 
 #education-container {
+  padding-left: 5rem;
   margin-top: 5rem;
   margin-bottom: 5rem;
 }
@@ -332,13 +348,14 @@ body {
 
   #work-logos,
   #ga-logo,
-  #uw-logo {
+  #uw-,
+  #wr-logo {
     padding-top: 2rem;
     padding-bottom: 3rem;
   }
 
   #food-project-container {
-    padding: 4rem 2rem 4rem 2rem;
+    padding: 4rem 1rem 4rem 1rem;
   }
 
   #donate-button-col {
@@ -355,9 +372,17 @@ body {
   }
 
   #washing-machine-image {
-    width: 13rem;
+    width: 15rem;
     height: 20rem;
     margin-top: 2rem;
     padding: 0;
+  }
+
+  #wr-text{
+    padding-left: 1rem;
+  }
+
+  #education-container{
+    padding-left: .6rem;
   }
 }
