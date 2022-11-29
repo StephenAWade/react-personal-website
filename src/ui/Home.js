@@ -325,7 +325,7 @@ export const Home = () => {
           <Row>
             <Col md={12} id="button-col">
               <a
-                href="https://1drv.ms/b/s!AmI02yM5rJcaknIUJjOIchWi7gcW?e=zH2MIc"
+                href="https://1drv.ms/b/s!AmI02yM5rJcaknIzcP16rVSOvHty?e=nEzHXF"
                 arget="_blank"
               >
                 <button id="resume-button">Download Full Resume</button>
@@ -343,7 +343,7 @@ export const Home = () => {
         <Row>
           <Col id="contact">
             <hr />
-            <p>To get in touch, email kstrickler@hopeworksnm.org</p>
+            <p>To get in touch, email kaylamstrickler@gmail.com</p>
             <hr />
           </Col>
         </Row>
