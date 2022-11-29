@@ -85,6 +85,7 @@ body {
 
 #banner-text-col {
   padding-top: 3rem;
+  padding-right: 5rem;
 }
 
 #home-banner h1 {
@@ -320,6 +321,11 @@ body {
 
 /* Mobile Responsive Media Queries */
 @media (max-width: 978px) {
+
+  #banner-text-col{
+    padding-right:0;
+  }
+
   #map-background {
     height: 8rem;
   }
