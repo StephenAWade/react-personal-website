@@ -5,7 +5,7 @@ import hopeworksLogo from "./icons/hopeworks-logo.png";
 import nmcanLogo from "./icons/nmcan-logo.png";
 import goldenApple from "./icons/golden-apple-logo-2.png";
 import unitedWay from "./icons/united-way-logo.png";
-import riograndeFoodProject from "./icons/rio-grande-food-project.jpeg";
+// import riograndeFoodProject from "./icons/rio-grande-food-project.jpeg";
 import washingMachine from "./icons/washing-machine.jpg";
 import laundryLoveLogo from "./icons/laundry-love-logo-2.png";
 import worldraceLogo from "./icons/world-race-logo-2.png";
