@@ -162,17 +162,17 @@ export const Home = () => {
             </Col>
           </Row>
           <Row>
-            <Col md={12}>
-            <h4>Board Secretary</h4>
-              <p>October 2022-present</p>
-              <hr />
-              <h4>Board Member</h4>
-              <p>January 2021-September 2022</p>
+            <Col md={12} id="rgfp-resume">
+              <h4>Board Secretary</h4>
+                <p>October 2022-present</p>
+               <hr />
+                <h4>Board Member</h4>
+                <p>January 2021-September 2022</p>
             </Col>
           </Row>
           <br />
           <Row>
-            <Col md={4}>
+            <Col md={6} id="rgfp-text">
               <p>
                 Serving on the Rio Grande Food Project Board of Directors 
                 (including the Development and Executive Committees), I am 
@@ -185,15 +185,15 @@ export const Home = () => {
                 takes strategic risks to address food insecurity at its roots.
               </p>
             </Col>
-            <Col md={3}>
+            {/* <Col md={3}>
             <Image
                 fluid
                 id="work-logos"
                 src={riograndeFoodProject}
                 alt="Rio Grande Food Project"
               />
-            </Col>
-            <Col md={5} id="donate-button-col">
+            </Col> */}
+            <Col md={6} id="donate-button-col">
               <iframe
                 id="food-project-video"
                 src="https://www.youtube.com/embed/vXHT8Fxl780"

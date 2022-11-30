@@ -203,25 +203,19 @@ body {
   padding-bottom: 3rem;
 }
 
+#rgfp-resume{
+  padding-left: 4rem;
+}
+
+#rgfp-text{
+  padding-left: 4rem;
+}
+
 #donate-button-col {
   text-align: center;
-  /* padding-top: 5rem; */
+  padding-left: 0;
+  padding-right: 0;
 }
-
-/* #videoWrapper {
-  position: relative;
-	padding-bottom: 5rem;
-	padding-top: 1.5rem;
-	height: 0;
-}
-
-.videoWrapper iframe {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-} */
 
 #food-project-video {
   width: 33rem;
@@ -367,7 +361,15 @@ body {
   }
 
   #donate-button-col {
-    padding: 0;
+    padding: 3rem 0 0 0;
+  }
+
+  #rgfp-resume{
+    padding-left: 1rem;
+  }
+
+  #rgfp-text{
+    padding-left: 1rem;
   }
 
   #food-project-video {
