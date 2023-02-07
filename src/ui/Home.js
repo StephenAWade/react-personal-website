@@ -34,7 +34,7 @@ export const Home = () => {
             </p>
             <h1>Kayla Strickler</h1>
             <p className="mt-5">
-             Inspired by the grit, sacrifice, and compassion of my ancestors whose shoulders I now stand, my career is dedicated to systemic change that elevates and leverages the voices and lived experience of people at the outermost margins to create a lasting and more equitable reality.
+             Inspired by the grit, sacrifice, and compassion of my ancestors upon whose shoulders I now stand, my career is dedicated to systemic change that elevates and leverages the voices and lived experience of people at the outermost margins to create a lasting and more equitable reality.
             </p>
           </Col>
         </Row>
